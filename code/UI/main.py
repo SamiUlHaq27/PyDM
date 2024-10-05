@@ -8,8 +8,6 @@ class App:
     def __init__(self, page:ft.Page):
         
         self.page = page
-        self.page.window.frameless = True
-        self.page.window.center()
         
         self.main_view = MainView(page)
         
